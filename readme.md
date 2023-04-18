@@ -3,5 +3,7 @@
 instalação OK
 npm i -g yarn
 npm install OK!!!!!!
-
+2. download starterpack
+OK
+3. Instal yarn OK
 -->
