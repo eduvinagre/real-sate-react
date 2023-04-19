@@ -1,5 +1,9 @@
 import React from "react";
 
+export const Hero = () => {
+  return <div>Hero</div>;
+};
+
 const Hero = () => {
   return (
     <section className="hero-wrapper">
