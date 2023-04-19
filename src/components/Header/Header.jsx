@@ -7,7 +7,7 @@ export const Header = () => {
         <img src="./logo.png" alt="logo" width={100} />
 
         <div className="flexCenter h-menu">
-          <a href="">Residencias</a>
+          <a href="">Residências</a>
           <a href="">Nossos Valores</a>
           <a href="">Entre em Contato</a>
           <a href="">Comece Aqui</a>
