@@ -1,20 +1,20 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Casa Jardim",
+    "price": "4,550,000",
+    "detail": "Rua Sara Vilela. Jardim Botânico, Rio de Janeiro, Rio de Janeiro",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Casa da Mata",
+    "price": "6,600,000",
+    "detail": "Rua das Buganvilias, Condomínio Morro do Chapéu, Nova Lima, Minas Gerais",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Casa Pôr do Sol",
+    "price": "8,800,000",
+    "detail": "Rua Granada, Condomínio Vila Castela, Nova Lima, Minas Gerais",
     "image": "./r3.png"
   },
   {

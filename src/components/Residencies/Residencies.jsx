@@ -4,7 +4,33 @@ import "swiper/css";
 import "./Residencies.css";
 import data from "../../utils/slider.json";
 const Residencies = () => {
-  return <div>Residencies</div>;
+  return (
+    <section className="r-wrapper">
+      <div className="paddings innerWidth r-container">
+        <div className="r-head flexColStart">
+          <span className="orangeText">Melhores Oportunidades</span>
+          <span className="primaryText">Mais Vistadas</span>
+        </div>
+        <Swiper>
+          {data.map((card, i) => (
+            <SwiperSlide key={i}>
+              <div className="flexColStart r-card">
+                <img src={card.image} alt="casa" />
+
+                <span className="secondaryText r-price">
+                  <span style={{ color: "orange" }}>$</span>
+                  <span>{card.price}</span>
+                </span>
+
+                <span className="primaryText">{card.name}</span>
+                <span className="secondaryText">{card.detail}</span>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
 };
 
 export default Residencies;
