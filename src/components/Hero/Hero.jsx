@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
+import CountUp from "react-countup";
 export const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -16,16 +17,44 @@ export const Hero = () => {
             </h1>
           </div>
           <div className="flexColStart hero-description">
-            <span>
+            <span className="secondaryText">
               Descubra uma variedade de imóveis que combinam com o seu estilo
             </span>
-            <span>Esqueça todas as dificuldades para encontrar o seu lar</span>
+            <span className="secondaryText">
+              Esqueça todas as dificuldades para encontrar o seu lar
+            </span>
           </div>
 
-          <div className="search-bar">
+          <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
             <button className="button">Pesquisar</button>
+          </div>
+
+          <div className="flexCenter stats">
+            <div className="flexColCenter stat">
+              <span>
+                <CountUp start={8800} end={9000} duration={4} />
+                <span>+</span>
+              </span>
+              <span className="secondaryText">Produtos Premium</span>
+            </div>
+
+            <div className="flexColCenter stat">
+              <span>
+                <CountUp start={19500} end={20000} duration={4} />
+                <span>+</span>
+              </span>
+              <span className="secondaryText">Clients Satisfeitos</span>
+            </div>
+
+            <div className="flexColCenter stat">
+              <span>
+                <CountUp end={28} />
+                <span>+</span>
+              </span>
+              <span className="secondaryText">Prêmios Conquistados</span>
+            </div>
           </div>
         </div>
         {/* right side */}
