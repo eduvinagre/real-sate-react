@@ -6,4 +6,6 @@ npm install OK!!!!!!
 2. download starterpack
 OK
 3. Instal yarn OK
+4. Header
+5. Hero
 -->

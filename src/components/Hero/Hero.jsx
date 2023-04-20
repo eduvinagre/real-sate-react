@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hero.css";
 
 export const Hero = () => {
   return <div>Hero</div>;
@@ -19,3 +20,5 @@ const Hero = () => {
     </section>
   );
 };
+
+export default Hero;
