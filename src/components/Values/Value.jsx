@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Value.css";
 import {
   Accordion,
   AccordionItem,
@@ -10,6 +9,7 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
+import "./Value.css";
 import data from "../../utils/accordion";
 function Value() {
   return (
