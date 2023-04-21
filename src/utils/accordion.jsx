@@ -2,22 +2,22 @@ import { HiShieldCheck } from "react-icons/hi";
 import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
-    icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    icon: <HiShieldCheck />,
+    heading: "As melhores taxas de juros do Mercado",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Aqui você vai encontrar as melhores taxas de juros do mercado. Trabalhamos com diversas instituições para garantir a você o melhor financiamento. Cobrimos a taxa da concorrência!",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Parcelas fixas durante todo o Financiamento",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Aqui a parcela do seu financiamento é definida no início, sem ajustes mensais ou anuais, sem surpresas, sem sustos ou letras miúdas. Nosso compromisso é com a total clareza do contrato!",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Melhores valores do Mercado",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Só aqui você vai encontrar os melhores valores dos imóveis para o seu financiamento. Acreditamos que um valor justo para o imóvel é o que garante o sucesso do nosso negócio!",
   },
 ];
 export default data;
