@@ -39,12 +39,12 @@ function Value() {
               const [className, setClassName] = useState(null);
               return (
                 <AccordionItem
-                  className={`accordion-item ${className}`}
+                  className={`accordionItem ${className}`}
                   key={i}
                   uuid={i}
                 >
                   <AccordionItemHeading>
-                    <AccordionItemButton className="flexCenter accordion-button">
+                    <AccordionItemButton className="flexCenter accordionButton">
                       <AccordionItemState>
                         {({ expanded }) =>
                           expanded
@@ -52,6 +52,7 @@ function Value() {
                             : setClassName("collapsed")
                         }
                       </AccordionItemState>
+
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
@@ -59,6 +60,7 @@ function Value() {
                       </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
+
                   <AccordionItemPanel>
                     <p className="secondaryText">{item.detail}</p>
                   </AccordionItemPanel>

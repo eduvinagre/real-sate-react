@@ -12,12 +12,12 @@
 
 .accordion {
   margin-top: 2rem;
-  border: none;
+  border: 0px;
 }
 
 .accordionItem {
   background: white;
-  border: 8px solid rgba(128, 128, 128, 0.143);
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -27,7 +27,7 @@
   border-radius: 6px;
 }
 
-.accordion-button {
+.accordionButton {
   background: white;
   padding: 1rem;
   width: 100%;
@@ -45,6 +45,6 @@
   fill: var(--blue);
 }
 
-.accordion-button .primaryText {
-  font-size: 1rem;
+.accordionButton .primaryText {
+  font-size: 1.1rem;
 }
