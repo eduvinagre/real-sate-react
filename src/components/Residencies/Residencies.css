@@ -1,5 +1,6 @@
-r.container {
+.r-container {
   overflow: hidden;
+  position: relative;
 }
 
 .r-head {
@@ -47,4 +48,10 @@ r.container {
 
 .swiper-horizontal {
   overflow: visible;
+}
+
+.r-button {
+  position: absolute;
+  gap: 1rem;
+  top: -4rem;
 }
