@@ -19,7 +19,7 @@ const Contact = () => {
 
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexColStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -45,6 +45,36 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flexCenter button">Chat Agora</div>
+              </div>
+            </div>
+
+            {/* second row */}
+            <div className="flexStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Video Chamada</span>
+                    <span className="secondaryText">(99) 9999-9999</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Video Chamada Agora</div>
+              </div>
+
+              {/* fourth mode */}
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Mensagem</span>
+                    <span className="secondaryText">(99) 9999-9999</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Mensagem Agora</div>
               </div>
             </div>
           </div>
