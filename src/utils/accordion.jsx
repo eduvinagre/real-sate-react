@@ -11,7 +11,7 @@ const data = [
     icon: <MdCancel />,
     heading: "Parcelas fixas durante todo o Financiamento",
     detail:
-      "Aqui a parcela do seu financiamento é definida no início, sem ajustes mensais ou anuais, sem surpresas, sem sustos ou letras miúdas. Nosso compromisso é com a total clareza do contrato!",
+      "A parcela do seu financiamento é definida no início, sem ajustes mensais ou anuais, sem surpresas, sem sustos ou letras miúdas. Nosso compromisso é com a total clareza do contrato!",
   },
   {
     icon: <MdAnalytics />,
