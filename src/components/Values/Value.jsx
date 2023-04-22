@@ -62,7 +62,9 @@ function Value() {
                   </AccordionItemHeading>
 
                   <AccordionItemPanel>
-                    <p className="secondaryText">{item.detail}</p>
+                    <p className="secondaryText accordionItemPanel">
+                      {item.detail}
+                    </p>
                   </AccordionItemPanel>
                 </AccordionItem>
               );
