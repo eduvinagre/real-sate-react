@@ -1,4 +1,4 @@
-import { HiShieldCheck } from "react-icons/hi";
+import { HiCash, HiShieldCheck } from "react-icons/hi";
 import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
@@ -8,7 +8,7 @@ const data = [
       "Aqui você vai encontrar as melhores taxas de juros do mercado. Trabalhamos com diversas instituições para garantir a você o melhor financiamento. Cobrimos a taxa da concorrência!",
   },
   {
-    icon: <MdCancel />,
+    icon: <HiCash />,
     heading: "Parcelas fixas durante todo o Financiamento",
     detail:
       "A parcela do seu financiamento é definida no início, sem ajustes mensais ou anuais, sem surpresas, sem sustos ou letras miúdas. Nosso compromisso é com a total clareza do contrato!",
