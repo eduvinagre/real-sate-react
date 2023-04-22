@@ -1,3 +1,7 @@
+.c-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+}
+
 .c-container {
   justify-content: space-between;
 }
