@@ -16,9 +16,9 @@ export const Header = () => {
             <a href="">Contato</a>
           </button>
         </div>
-      </div>
-      <div className="menu-icon">
-        <BiMenuAltRight size={30} />
+        <div className="menu-icon">
+          <BiMenuAltRight size={30} />
+        </div>
       </div>
     </section>
   );
