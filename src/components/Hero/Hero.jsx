@@ -14,7 +14,7 @@ export const Hero = () => {
             <motion.h1
               initial={{ y: "2rem", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 2, type: spring }}
+              transition={{ duration: 2, type: "spring" }}
             >
               Descubra
               <br /> o Imóvel Mais
@@ -64,9 +64,14 @@ export const Hero = () => {
         </div>
         {/* right side */}
         <div className="flexCenter hero-right">
-          <div className="image-container">
+          <motion.div
+            initial={{ x: "2rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "spring" }}
+            className="image-container"
+          >
             <img src="./hero-image.png" alt="vista externa de apartamentos" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
