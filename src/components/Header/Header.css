@@ -1,5 +1,6 @@
 .h-wrapper {
   color: white;
+  z-index: 99;
 }
 
 .h-container {
@@ -26,6 +27,7 @@
     display: block;
   }
   .h-menu {
+    z-index: 99;
     color: var(--black);
     position: absolute;
     top: 3rem;
