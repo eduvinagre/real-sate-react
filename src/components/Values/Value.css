@@ -52,3 +52,22 @@
 .accordionItemPanel {
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .v-container {
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .v-right {
+      align-items: center;
+    }
+
+    .accordionButton .primaryText {
+      font-size: 0.8rem;
+    }
+
+    .image-container {
+      margin: auto;
+    }
+  }
+}
