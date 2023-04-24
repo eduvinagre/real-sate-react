@@ -91,7 +91,7 @@
   .image-container {
     width: 95%;
     height: 25rem;
-    margin: 0 3.5rem;
+    margin: auto;
   }
   .stats {
     justify-content: center;

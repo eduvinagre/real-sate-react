@@ -3,7 +3,7 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck />,
-    heading: "As melhores taxas de juros do Mercado",
+    heading: "As melhores taxas do Mercado",
     detail:
       "Aqui você vai encontrar as melhores taxas de juros do mercado. Trabalhamos com diversas instituições para garantir a você o melhor financiamento. Cobrimos a taxa da concorrência!",
   },
