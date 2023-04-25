@@ -9,7 +9,7 @@ const data = [
   },
   {
     icon: <HiCash />,
-    heading: "Parcelas fixas todo o Financiamento",
+    heading: "Parcelas fixas",
     detail:
       "A parcela do seu financiamento é definida no início, sem ajustes mensais ou anuais, sem surpresas, sem sustos ou letras miúdas. Nosso compromisso é com a total clareza do contrato!",
   },

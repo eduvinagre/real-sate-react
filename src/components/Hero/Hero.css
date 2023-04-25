@@ -106,4 +106,10 @@
   .stat > :nth-child(2) {
     font-size: 0.8rem;
   }
+  .search-bar > input {
+    font-size: 0.6rem;
+  }
+  .search-bar > button {
+    padding: 0.4rem 1.2rem;
+  }
 }
