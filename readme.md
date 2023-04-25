@@ -32,15 +32,15 @@ The main challenge here was to make my first project using React, creating anima
 ### Screenshot
 
 Header and Hero Sections
-![](./screenshot-1.png)
+![](./screenshot.png)
 Residencies Section
-![](./screenshot-2.png)
+![](./screenshot2.png)
 Values Section
-![](./screenshot-3.png)
+![](./screenshot3.png)
 Contacts Section
-![](./screenshot-4.png)
+![](./screenshot4.png)
 Get Started and Footer Section
-![](./screenshot-5.png)
+![](./screenshot5.png)
 
 
 ## My process
