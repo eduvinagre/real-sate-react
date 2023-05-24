@@ -1,6 +1,6 @@
 # REAL STATE
 
-This is a functional website I made using React for an imaginary real state client. 
+This is a functional website I made using React for an imaginary real state client improving my skills using React.
 
 ## Table of contents
 
